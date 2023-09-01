@@ -1,3 +1,8 @@
+# Fork
+This is a patch fork for compatibility with numpy >= 1.19.5
+- Updated networkx dependency
+- Changed np.float to np.float64
+
 # Urdfpy
 
 [![Build Status](https://travis-ci.org/mmatl/urdfpy.svg?branch=master)](https://travis-ci.org/mmatl/urdfpy)
