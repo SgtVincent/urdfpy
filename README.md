@@ -24,7 +24,9 @@ Extensive API documentation is provided [here](https://urdfpy.readthedocs.io/en/
 You can install urdfpy directly from pip.
 
 ```bash
-pip install urdfpy
+# DO NOT run pip install urdfpy, which will install the original version
+cd /path/to/urdfpy
+pip install -e . 
 ```
 
 ## User Guide
